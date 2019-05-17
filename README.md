@@ -15,6 +15,6 @@ can run:
 ### Models
 Involves database schemas that outline the structure of the objects in the database and validates new entries. The actual model takes the schema and connects to the collection that the schema represents. The model is then an interface to interact with the collection.
 
-### Routers
+### Routes
 Defines api routes and handles requests that read and write to the database.
 
