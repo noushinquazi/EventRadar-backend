@@ -29,7 +29,7 @@ app.use(body_parser.json())
 app.use('/api/events', event_router)
 
 /* Bind server to port */
-app.listen(port, () => console.log(`EventRadar listening on ${port}!`))
+app.listen(port, () => console.log(`EventRadar listening on port ${port}!`))
 
 app.get('/', (req, res) => res.send('Welcome to EventRadar!'))
 
