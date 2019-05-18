@@ -5,10 +5,17 @@ The backend for EventRadar.
 ```npm install```
 
 ## Usage
-You will need database credentials inside a `credentials.json` file. Then you
-can run: 
 
-```npm start```
+Create a file called `credentials.json` at the root of the project and put the following contents in it:
+
+```
+{
+    "username": "dev",
+    "password": "0sOvX8ezWFlwqeNl"
+}
+```
+
+Next, run `npm start`.
 
 ## Project Structure
 
