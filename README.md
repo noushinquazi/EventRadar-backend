@@ -15,7 +15,7 @@ Create a file called `credentials.json` at the root of the project and put the f
 }
 ```
 
-Next, run `npm start`.
+Do not track this file on git. Next, run `npm start`. 
 
 ## Project Structure
 
